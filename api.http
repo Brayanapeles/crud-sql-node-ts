@@ -1,0 +1,10 @@
+### Creat
+
+POST http://localhost:8090/usuarios
+Content-Type: application/json
+
+{
+  "email": "brayan.dev@email.com",
+  "nome": "Brayan Apeles",
+  "idade": 18
+}
