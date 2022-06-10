@@ -1,10 +1,26 @@
 ### Creat
-
-POST http://localhost:8090/usuarios
+POST http://localhost:3000/usuarios
 Content-Type: application/json
 
 {
-  "email": "brayan.dev@email.com",
-  "nome": "Brayan Apeles",
+  "email": "julio@email.com",
+  "nome": "Julio Alves",
   "idade": 18
 }
+
+### FindALl
+GET  http://localhost:3000/usuarios
+
+### FindOne
+GET http://localhost:3000/usuarios/1
+
+### Update
+PUT http://localhost:3000/usuarios/1
+Content-Type: application/json
+
+{
+  "nome" : "Brayan Nunes"
+}
+
+### Destroy
+DELETE http://localhost:3000/usuarios/2
